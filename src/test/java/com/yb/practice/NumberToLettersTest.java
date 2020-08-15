@@ -16,7 +16,7 @@ public class NumberToLettersTest extends TestCase {
 	}
 	
 	public void testCombination1() {
-		int[] arr = {2, 36, 47};
+		int[] arr = {2, 36};
 		NumberToLetters obj = new NumberToLetters();
 		List<String> resultList = obj.combination(arr);
 		for (String str : resultList) {
